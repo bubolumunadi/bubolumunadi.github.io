@@ -2,7 +2,7 @@
   link: 'https://www.facebook.com/sozphoto'
   social_icon: Facebook
   new_window: true
-  - name: Instagram
+- name: Instagram
   link: 'https://www.instagram.com/s.oz'
   social_icon: Instagram
   new_window: true
