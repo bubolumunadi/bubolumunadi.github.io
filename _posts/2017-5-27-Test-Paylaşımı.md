@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Test Paylaşımı
+date: 2017-05-27 15:35
+author: sertac oz
+comments: true
+Tags: [Kisisel] 
 ---
 
 ![sertac](https://scontent.fsaw1-8.fna.fbcdn.net/v/t1.0-9/18622488_1848576802060167_6063260063884744014_n.jpg?oh=5d88f5f2d022e6d2d660c502e0477525&oe=59AB921A)
