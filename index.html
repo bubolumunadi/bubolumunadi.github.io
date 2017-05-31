@@ -3,7 +3,7 @@ layout: default
 ---
 <div id="main">
   <section>
-    {% for post in site.posts limit:1 %}
+    {% for post in paginator.posts limit:1 %}
       <header>
         <h1>{{ post.title }}</h1>
         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
@@ -17,7 +17,7 @@ layout: default
 
   <section>
     <div class="row">
-      {% for post in site.posts offset:1 %}
+      {% for post in paginator.posts offset:1 %}
         <article class="{% cycle '6u', '6u$' %} 12u(small)">
           <header>
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -35,4 +35,21 @@ layout: default
       {% endfor %}
     </div>
   </section>
+  
+  <!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Önceki</a>
+  {% else %}
+    <span class="previous">Önceki</span>
+  {% endif %}
+  <span class="page_number ">Sayfa: {{ paginator.page }} / {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Sonraki</a>
+  {% else %}
+    <span class="next ">Sonraki</span>
+  {% endif %}
+</div>
+  
+  
 </div>
