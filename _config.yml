@@ -1,6 +1,6 @@
 locale: "en-US"
 title: Strata # Title of your site
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://www.bubolumunadi.com" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: ""
 
@@ -22,7 +22,11 @@ social:
   links:
     - https://github.com/comfusion/strata-reloaded-jekyll-template
 
-permalink: pretty
+permalink: /:year/:month/:day/:title.html
+
+paginate: 5
+paginate_path: "/page/:num"
+excerpt_separator: "<!--more-->"
 
 gems:
   - "jekyll-feed"
