@@ -6,11 +6,12 @@
   link: 'https://www.instagram.com/s.oz'
   social_icon: Instagram
   new_window: true
-- name: RSS
-  link: '/feed.xml'
-  social_icon: RSS
-  new_window: true
 - name: LinkedIn
   link: 'https://www.linkedin.com/in/sertacoz/'
   social_icon: LinkedIn
   new_window: true
+- name: RSS
+  link: '/feed.xml'
+  social_icon: RSS
+  new_window: true
+
