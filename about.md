@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: Hakkımda
 permalink: /about/
 ---
 
-Some information about you!
+Soyadımın ilk iki harfi, kişiliğim kadar Öz..
 
 ### More Information
 
@@ -12,4 +12,4 @@ A place to include any other types of information that you'd like to include abo
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[sozphotography@hotmail.com](mailto:sozphotography@hotmail.com)
