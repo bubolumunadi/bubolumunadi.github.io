@@ -4,12 +4,13 @@ title: Hakkımda
 permalink: /about/
 ---
 
-Soyadımın ilk iki harfi, kişiliğim kadar Öz..
+Based on a true story 🃏
 
-### More Information
+### Sertaç Öz
 
-A place to include any other types of information that you'd like to include about yourself.
+Sokakta Fotoğrafçı 📷🚶🏻 
+Hava Yolları'nda Mühendis ✈️👔
 
-### Contact me
+### İletişim
 
 [sozphotography@hotmail.com](mailto:sozphotography@hotmail.com)
